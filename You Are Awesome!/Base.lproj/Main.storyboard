@@ -30,11 +30,16 @@
                                 <color key="textColor" red="0.54004246" green="0.063329823320000006" blue="0.042676933110000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="prr-qE-DTa">
+                                <rect key="frame" x="16" y="166" width="288" height="382"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="prr-qE-DTa" id="79q-aL-jUF"/>
                         <outlet property="messageLabel" destination="17p-Ao-Zyt" id="qRW-0p-ZoK"/>
                     </connections>
                 </viewController>
